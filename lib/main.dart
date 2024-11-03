@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'shopping app',
         home: const HomePage(),
-        debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: true,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
             seedColor: const Color.fromARGB(255, 33, 229, 255),
